@@ -1,6 +1,9 @@
-![Screenshot (1403)](https://github.com/user-attachments/assets/f774975c-22a0-4bff-8483-10ce26604fde)## Collaborative Book List App
+## Collaborative Book List App
 
 Welcome to the Collaborative Book List App! This full-stack application allows multiple users to contribute, view, upvote, and delete books in a shared book list. Users can interact with the list by adding their favorite books, providing upvotes, and removing books they no longer wish to keep. The app is designed to be responsive and visually appealing across desktop and mobile devices.
+
+
+![Screenshot (1403)](https://github.com/user-attachments/assets/f774975c-22a0-4bff-8483-10ce26604fde)
 
 # Features
 
