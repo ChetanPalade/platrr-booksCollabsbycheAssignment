@@ -1,104 +1,70 @@
-# platrr-booksCollabsbycheAssignment
-# Collaborative Book List App
+# Getting Started with Create React App
 
-  Welcome to the Collaborative Book List App! This full-stack application allows multiple users to contribute, view, upvote, and delete books in a shared book list. Users can interact with the list by adding their favorite books, providing upvotes, and removing books they no longer wish to keep. The app is designed to be responsive and visually appealing across desktop and mobile devices.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Features
- - Book List Display: View a list of books with title, author, description (optional), and upvote count. -
- - Add New Book: Users can add books to the list, including a title, author, and an optional description.
- - Upvote Feature: Users can upvote books, increasing their visibility in the list.
- - Delete Book: Users can delete books from the list.
- - Responsive Design: The app is fully responsive, with a fluid layout optimized for both desktop and mobile devices.
- - Animations: Smooth animations and interactions using Framer Motion for a dynamic user experience.
+## Available Scripts
 
-# Technologies Used
-  ## Frontend
+In the project directory, you can run:
 
- --> React.js: JavaScript library for building user interfaces.
- --> React Bootstrap: A UI toolkit for building responsive and attractive components.
- --> Framer Motion: A library for adding animations and transitions.
- --> CSS/Media Queries: Custom CSS with media queries for advanced responsiveness and styling.
+### `npm start`
 
-  ## Backend
- --> Node.js: JavaScript runtime used for building the backend.
- --> Express.js: Web framework for building RESTful APIs.
- --> MongoDB: NoSQL database used for storing book data. MongoDB Atlas is recommended for hosting the database.
- --> Mongoose: ODM (Object Document Mapper) for MongoDB, used to interact with the database.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-# Setup Instructions
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Prerequisites
-Before you start, make sure you have the following installed:
+### `npm test`
 
-Node.js (v14 or higher)
-npm or yarn
-MongoDB (Local or MongoDB Atlas account)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-1. Clone the Repository
-Clone the repository to your local machine:
+### `npm run build`
 
-git clone https://github.com/ChetanPalade/platrr-booksCollabsbycheAssignment.git
-cd collaborative-book-list-app
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-2. Install Backend Dependencies
-Navigate to the backend directory and install the required dependencies:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-cd backend
-npm install
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-3. Set Up Environment Variables
-Create a .env file in the backend directory and set the following variables:
+### `npm run eject`
 
-MONGO_URI=your-mongodb-uri
-PORT=3000
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Replace your-mongodb-uri with your actual MongoDB connection string. If you are using MongoDB Atlas, you can get this connection string from the MongoDB Atlas dashboard.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-4. Start the Backend Server
-Start the backend server using:
-npm start
-The backend server will be running on http://localhost:5000.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-5. Install Frontend Dependencies
-Navigate to the frontend directory and install the required dependencies:
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-cd frontend
-npm install
+## Learn More
 
-7. Start the Frontend Server
-Start the frontend development server using:
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-npm start
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-The frontend app will be running on http://localhost:3000.
+### Code Splitting
 
-# API Endpoints
-The backend exposes the following RESTful API endpoints:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-GET /api/books: Retrieve all books from the database.
-POST /api/books: Add a new book to the list (requires title and author).
-PUT /api/books/
-/upvote: Upvote a book by its ID.
-DELETE /api/books/
-: Delete a book from the list by its ID.
+### Analyzing the Bundle Size
 
-Example API Request (Postman, Curl, or Axios)
-# POST: Add a New Book
-json
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-{
-  "title": "The Great Gatsby",
-  "author": "F. Scott Fitzgerald",
-  "description": "A classic novel of the 1920s."
-}
+### Making a Progressive Web App
 
-# PUT: Upvote a Book
-json
-{
-  "upvotes": 1
-}
-# DELETE: Delete a Book
-json
-{
-  "id": "book-id-here"
-}
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
