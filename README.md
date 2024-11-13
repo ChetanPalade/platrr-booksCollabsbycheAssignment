@@ -1,5 +1,4 @@
 # platrr-booksCollabsbycheAssignment
-This Collaborative Book List App is a full-stack project that demonstrates how to build a responsive, modern, and dynamic web application. The use of React.js for the frontend and Node.js with Express for the backend showcases the flexibility of the MERN stack. By adding features like animations, user interactions, and a polished UI, we’ve created a seamless experience for users to contribute to and interact with a shared book list.
 # Collaborative Book List App
 
   Welcome to the Collaborative Book List App! This full-stack application allows multiple users to contribute, view, upvote, and delete books in a shared book list. Users can interact with the list by adding their favorite books, providing upvotes, and removing books they no longer wish to keep. The app is designed to be responsive and visually appealing across desktop and mobile devices.
@@ -38,7 +37,7 @@ MongoDB (Local or MongoDB Atlas account)
 1. Clone the Repository
 Clone the repository to your local machine:
 
-git clone https://github.com/your-username/collaborative-book-list-app.git
+git clone https://github.com/ChetanPalade/platrr-booksCollabsbycheAssignment.git
 cd collaborative-book-list-app
 
 2. Install Backend Dependencies
